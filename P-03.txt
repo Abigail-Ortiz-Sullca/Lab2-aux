@@ -1,0 +1,72 @@
+Características de TypeScript
+1.- Una de las características principales de TypeScript es su sistema de tipos estáticos. Esto significa que las 
+variables y funciones pueden tener tipos asociados a ellas, lo que permite a los desarrolladores escribir código más 
+fiable y fácil de mantener.
+2.- Tipado estático: TypeScript introduce el tipado estático en JavaScript, lo que permite a los desarrolladores 
+especificar los tipos de variables, parámetros de función y valores de retorno. Esto ayuda a detectar errores 
+relacionados con el tipo durante el desarrollo.
+3.-Soporte para programación orientada a objetos: TypeScript soporta conceptos de programación orientada a objetos 
+como clases, interfaces, herencia y composición, lo que facilita la escritura de código para aplicaciones a gran escala.
+4.-Genéricos: Los genéricos en TypeScript permiten la creación de componentes que pueden trabajar con varios tipos en 
+lugar de un solo tipo.
+5.-Decoradores: TypeScript soporta decoradores, que son una forma de añadir anotaciones y metadatos a las clases y 
+miembros de las clases.
+6.-Compilación: TypeScript es un lenguaje compilado, lo que significa que el código TypeScript se compila en código 
+JavaScript antes de su ejecución. Esto permite detectar muchos errores en tiempo de compilación.
+7.-Soporte de grandes fabricantes: TypeScript es respaldado por grandes fabricantes como Microsoft y Google, lo que 
+garantiza su mantenimiento y desarrollo continuo.
+8.-Integración con frameworks populares: TypeScript se utiliza en muchos frameworks populares como Angular e Ionic.
+9.-Compatibilidad con JavaScript: TypeScript es un superconjunto de JavaScript, lo que significa que cualquier código 
+JavaScript válido es también un código TypeScript válido.
+10.-Flexibilidad: TypeScript permite a los desarrolladores escribir código que es casi idéntico al JavaScript clásico 
+si así lo desean.
+11.-Soporte para desarrollo en el lado del servidor: TypeScript se puede utilizar para desarrollar aplicaciones en el 
+lado del servidor con tecnologías como Node.js.
+
+Características importantes de JavaScript :
+
+1.-Lenguaje interpretado: JavaScript se ejecuta directamente en el navegador sin necesidad de ser compilado.
+2.-Tipado débil: En JavaScript no se define el tipo de una variable a la hora de instanciarla. El tipo de la 
+variable se asigna atendiendo al valor que le asignemos a la variable.
+3.-Orientado a objetos: JavaScript permite la creación de objetos y la manipulación de sus propiedades y métodos.
+4.-Sintaxis sencilla: JavaScript tiene una sintaxis fácil de aprender y entender.
+5.-Cliente y Servidor: JavaScript puede ser utilizado tanto para el desarrollo de aplicaciones de cliente, 
+como para construir aplicaciones de servidor.
+6.-Multiplataforma: Al ser un lenguaje interpretado y que se ejecuta tanto en cliente, como en servidor, le permite 
+a JavaScript tener múltiples interpretes en diferentes navegadores que se ejecutan en diferentes sistemas operativos.
+7.-Funciones como objetos de primera clase: En JavaScript, las funciones son objetos de primera clase. Esto significa 
+que las funciones pueden tener propiedades y métodos, pueden ser asignadas a variables, pueden ser pasadas como 
+argumentos a otras funciones y pueden ser retornadas como valores por otras funciones.
+8.-Closures: Los closures son una característica importante de JavaScript. Un closure es una función que tiene acceso 
+al alcance de la función padre, incluso después de que la función padre ha terminado.
+9.-Asincronía: JavaScript tiene soporte nativo para la programación asíncrona, lo que significa que puede realizar tareas 
+en segundo plano mientras el código principal continúa ejecutándose. Esto se logra a través de características como 
+promesas, async/await y callbacks.
+10.-Manipulación del DOM: JavaScript puede interactuar directamente con el Modelo de Objetos del Documento (DOM), lo que
+ le permite manipular elementos HTML, cambiar estilos CSS, crear animaciones y mucho más.
+
+Diferencias:
+TypeScript y JavaScript son dos lenguajes de programación muy utilizados en el desarrollo web. 
+Aunque son similares en muchos aspectos, también tienen algunas diferencias:
+
+1.-Tipado: JavaScript es un lenguaje de tipado dinámico, lo que significa que las variables pueden cambiar de tipo durante 
+la ejecución del programa. Por otro lado, TypeScript es un lenguaje de tipado estático, lo que permite detectar errores 
+antes de que el código se ejecute.
+2.-Compilación: JavaScript no necesita ser compilado, se ejecuta directamente en el navegador o en el servidor. Esto lo 
+hace más rápido y accesible. En cambio, TypeScript necesita ser traspilado a código JavaScript válido para poder ser 
+interpretado por el cliente o el servidor.
+3.-Características adicionales: TypeScript agrega características adicionales que no están disponibles en JavaScript, 
+como los tipos estáticos, interfaces, decoradores, entre otros.
+4.-Dificultad de aprendizaje: JavaScript es muy sencillo de aprender, especialmente para las personas que están comenzando 
+en la programación. TypeScript, al ser un superconjunto de JavaScript, tiene la misma sintaxis que JavaScript, por lo 
+que si ya dominas JS, entonces te será muy fácil aprender TypeScript. Sin embargo, TypeScript es más complejo y puede 
+ser más difícil de aprender para los principiantes debido a las características adicionales que ofrece.
+5.-Módulos: TypeScript soporta módulos, lo que permite organizar y modularizar tu código1. JavaScript no admite módulos.
+6.-Interfaz: TypeScript introduce el concepto de interfaces, que son una forma de definir contratos dentro de tu código.
+JavaScript no tiene una característica equivalente.
+7.-Compilación: En TypeScript, el código debe ser compilado (o transpilado) a JavaScript antes de que pueda ser ejecutado. 
+En JavaScript, no es necesario compilar el código.
+8.-Curva de aprendizaje: TypeScript puede ser más difícil de aprender al principio debido a su tipado estático y otras 
+características adicionales. JavaScript, por otro lado, es conocido por ser un lenguaje fácil de aprender.
+9.-Orientación a objetos: TypeScript es conocido como un lenguaje de programación orientado a objetos, mientras que 
+JavaScript es un lenguaje de secuencias de comandos.

@@ -1,0 +1,27 @@
+Las “Template Strings” son una característica de ES6 (ECMAScript 6) en JavaScript que permite la interpolación 
+de cadenas de una manera más legible y conveniente. Se crean utilizando comillas invertidas (`). 
+
+Características importantes y cómo funcionan:
+
+Interpolación de expresiones: Las Template Strings pueden contener marcadores de posición para las variables 
+o expresiones, que están delimitados por ${}. Cuando se evalúa la Template String, estos marcadores de posición 
+se sustituyen por el valor de la variable o el resultado de la expresión. Por ejemplo, en tu línea de código, 
+${numberA}, ${numberB} y ${result} se sustituyen por los valores de numberA, numberB y result respectivamente.
+
+Multilínea: Las Template Strings pueden abarcar varias líneas sin necesidad de concatenación de cadenas o 
+caracteres de escape de nueva línea. Simplemente puedes crear una nueva línea en la Template String y se 
+preservará en la cadena resultante.
+
+Cadenas sin formato: Las Template Strings también pueden utilizarse para crear cadenas sin formato utilizando 
+la etiqueta String.raw. Esto es útil cuando quieres incluir caracteres de escape en tu cadena sin que se 
+interpreten.
+
+Las Template Strings se diferencian de las comillas simples y dobles en varios aspectos:
+
+Las comillas simples y dobles no permiten la interpolación de expresiones. Tendrías que concatenar las cadenas 
+y las variables con el operador +.
+
+Las comillas simples y dobles no permiten cadenas multilínea a menos que utilices caracteres de escape de nueva
+ línea (\n).
+
+Las comillas simples y dobles no tienen la capacidad de crear cadenas sin formato.
